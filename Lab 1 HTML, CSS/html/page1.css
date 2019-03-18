@@ -1,0 +1,25 @@
+body{
+    background-image: url("./picture Page1/page1.jpg");
+    background-size: contain;
+    border-image-repeat: stretch;
+}
+
+.container{
+    padding: 16px;
+}
+.content {
+     background-color: #fefefe;
+    padding: 30px;
+     margin: 5% auto 15% auto;
+     border: 1px solid #888;
+     width: 50%; /* Could be more or less, depending on screen size */
+ }
+input[type=text], input[type=password], input[type=date], input[type=color]
+input[type=tel], input[type=url]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}

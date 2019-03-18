@@ -1,0 +1,56 @@
+#headFace{
+    float: left;
+    width: 9%;
+    height:60%;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+#headerText{
+    position: relative;
+    top: 70px;
+    left: 5px;
+    height: 70%;
+
+}
+#headerWelcome{
+    position: relative;
+    top:-30px;
+    padding-left: 5px;
+}
+header{
+    width: 100%;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    height:30%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    top: -25px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+.searchForm{
+    float: right;
+}
+#searchBar{
+    width: 50%;
+}

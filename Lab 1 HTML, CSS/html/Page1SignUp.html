@@ -1,11 +1,134 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
     <meta charset="utf-8">
     <title>Sign Up</title>
     <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="page1.css">
 </head>
 <body>
+    <header>
+        <div>
+            <div>
+                <form class="searchForm" method="get" action="http://www.google.com/search">
+                    <label>Search</label>
+                    <input  id="searchBar" type="text" placeholder="Search.." name="search" value="">
+                    <select>
+                        <option>
+                            <button type="submit">Search Google</button>
+                        </option>
+                        <option>
+                            <button type="submit">Search In Web</button>
+                        </option>
+                    </select>
+                </form>
+            </div>
+            <div>
+                <img id="headFace" src="./picture%20Page1/charlie.jpg">
+            </div>
+            <p id="headerText">
+                Charles & Jonathan Inc <br>
+                Charles Walsh, CEO<br>
+                charles.walsh.465@my.csun.edu
+            </p>
+            <div id="headerWelcome">
+                Welcome to our website !
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Page1SignUp.html">Sign Up</a> </li>
+                    <li><a href="Page2PrivacyAgreement.html">Privacy Agreement</a> </li>
+                    <li><a href="Page3AboutUs.html">About Us </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form class="content" method="post" action=" http://www.deitel.com">
+            <div class="container">
+                <h1>Sign Up today to receive update</h1>
+                <hr>
+
+                <label for="FirstName"><b>First Name</b></label>
+                <input type="text" placeholder="First Name" name="First Name" autofocus autocomplete="" required>
+                <br>
+                <label for="LastName"><b>Last Name</b></label>
+                <input type="text" placeholder="Last Name" name="Last Name" autocomplete="" required>
+                <br>
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" autocomplete="false" required>
+                <br>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <br>
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                <br>
+                <label for="Birth Date"><b>Birth Date</b></label>
+                <input type="date" name="Birth Date" value="1988-01-01" required>
+                <br>
+                <b>Major Selector</b>
+                <input list="major" name="major">
+                <datalist id="major">
+                    <option value="Civil Engineering">
+                    <option value="Computer Engineering">
+                    <option value="Computer Information Technology">
+                    <option value="Computer Science">
+                    <option value="Electrical Engineering">
+                    <option value="Engineering Management">
+                    <option value="Manufacturing Systems Engineering">
+                    <option value="Mechanical Engineering">
+                </datalist>
+                <br>
+                <label for="colorSelect"><b>Your favorite color: </b></label>
+                <input type="color" name="colorSelect" required>
+                <br>
+                <label><b>Number of years in college</b></label>
+                <select class="noSearch">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+                <br>
+                <label><b>Phone Number: </b></label>
+                <input type="tel" name="tel phone" pattern="\d{3}-\d{3}-\d{4}" placeholder="(###)###-####" autocomplete="false">    <!--add \character to repersent the primary meaning , without \ means secondary meaning , {} means counting, + means 1 or more -->
+                <br>
+                <label><b>Link to your homepage: </b></label>
+                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" novalidate autocomplete="off" required>
+                <br>
+                <label><b>Years of experience: </b></label>
+                <select class="noSearch">
+                    <option value="0-5">0-5</option>
+                    <option value="5-10">5-10</option>
+                    <option value="10-15">10-15</option>
+                    <option value="15-20">15-20</option>
+                    <option value="20+">20+</option>
+                </select>
+                <br>
+                <label for="volume"><b>Skill level in sleep: </b></label>
+                <b>0</b><input type="range" id="start" name="volume" min="0" max="10"><b>10</b>
+                <br>
+                <label for="contract"><b>Contact Preference: </b></label><br>
+                <input type="checkbox"  name="contract" >
+                <b>I would like to receive emails about new products and offers</b><br>
+                <input type="checkbox"  name="contract" >
+                <b>I would like to receive emails about my account and membership</b><br>
+                <input type="checkbox"  name="contract" >
+                <b>I would like to receive mail</b>
+
+
+                <div class="clearfix">
+                    <button type="reset">Reset</button>
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+
+            </div>
+        </form>
+    </main>
+
+
     
 </body>
 </html>

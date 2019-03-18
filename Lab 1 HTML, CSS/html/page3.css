@@ -1,0 +1,32 @@
+:hover{
+    background-color: yellow;
+}
+body{
+    background-image: url("./picture Page1/page1.jpg");
+    background-size: contain;
+    border-image-repeat: stretch;
+}
+input[type=text], input[type=password], input[type=date], input[type=color]
+input[type=tel], input[type=url]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+.firstP{
+    margin: 2em;
+    padding: 2em;
+    width: 30%;
+    height: 150px;
+    overflow: scroll;
+    background-color: aliceblue;
+}
+.secondP{
+    background-color: aliceblue;
+    margin: 2em;
+    width: 30%;
+    height: 150px;
+    overflow: hidden;
+}
