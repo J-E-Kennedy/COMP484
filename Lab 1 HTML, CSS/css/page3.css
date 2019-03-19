@@ -2,7 +2,7 @@
     background-color: yellow;
 }
 body{
-    background-image: url("./picture Page1/page1.jpg");
+    background-image: url("../images/page1.jpg");
     background-size: contain;
     border-image-repeat: stretch;
 }

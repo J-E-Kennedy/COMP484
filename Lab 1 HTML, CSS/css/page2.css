@@ -1,8 +1,19 @@
-
-#mainContent {
+body {
+    background-image: url("../images/page1.jpg");
+    background-size: contain;
+    border-image-repeat: stretch;
+}
+#privacyArt {
     position: relative;
     width: 80%;
     display: inline-block;
+    padding: 10px;
+
+    background-attachment: scroll;
+    background-image: url("../images/Bulbbot.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
 }
 
 #asideContent
@@ -12,24 +23,19 @@
     height: auto;
     position: relative;
     float: right;
+    padding: 5px;
 }
 
 #articleAndAside
 {
+    display: flex;
     position: relative;
-    height: auto;
-}
-
-#backgroundImage
-{
-    z-index: -1;
-    position: absolute;
     
 }
 
 @media (min-width: 1025px)
 {
-    #mainContent {
+    #privacyArt {
         column-count: 4;
         column-gap: 25px;
         text-align: justify;
@@ -39,7 +45,7 @@
 }
 @media (max-width: 1024px) and (min-width: 480px)
 {
-    #mainContent {
+    #privacyArt {
         column-count: 3;
         column-gap: 30px;
         text-align: justify;
@@ -49,7 +55,7 @@
 
 @media (max-width: 479px)
 {
-    #mainContent {
+    #privacyArt {
         column-count: 2;
         column-gap: 20px;
         text-align: justify;
@@ -59,7 +65,7 @@
 
 @media (min-width: 700px) and (max-width: 900px)
 {
-    #mainContent {
+    #privacyArt {
         color: purple;
         text-align: left;
     }
