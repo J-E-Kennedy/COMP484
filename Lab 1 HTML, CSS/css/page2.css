@@ -1,0 +1,66 @@
+
+#mainContent {
+    position: relative;
+    width: 80%;
+    display: inline-block;
+}
+
+#asideContent
+{
+    background-color: lightcyan;
+    width: 20%;
+    height: auto;
+    position: relative;
+    float: right;
+}
+
+#articleAndAside
+{
+    position: relative;
+    height: auto;
+}
+
+#backgroundImage
+{
+    z-index: -1;
+    position: absolute;
+    
+}
+
+@media (min-width: 1025px)
+{
+    #mainContent {
+        column-count: 4;
+        column-gap: 25px;
+        text-align: justify;
+        background-color: skyblue;
+    }
+
+}
+@media (max-width: 1024px) and (min-width: 480px)
+{
+    #mainContent {
+        column-count: 3;
+        column-gap: 30px;
+        text-align: justify;
+        background-color: skyblue;
+    }
+}
+
+@media (max-width: 479px)
+{
+    #mainContent {
+        column-count: 2;
+        column-gap: 20px;
+        text-align: justify;
+        background-color: silver;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px)
+{
+    #mainContent {
+        color: purple;
+        text-align: left;
+    }
+}

@@ -1,7 +1,7 @@
 #headFace{
     float: left;
-    width: 9%;
     height:60%;
+    width: auto;
     border-radius: 4px;
     padding: 5px;
 
@@ -53,4 +53,39 @@ li a:hover {
 }
 #searchBar{
     width: 50%;
+}
+
+footer{
+    /* position: absolute;
+    bottom: 0; */
+    width: 100%;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    height:25%;
+}
+
+#footerImage{
+    float: left;
+    height:72%;
+    width: auto;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+#footerText{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    height: 80%;
+
+}
+#footerContact{
+    float: right;
+    
+}
+
+#footerCopyright{
+    position: relative;
+    top:-10px;
+    padding-left: 5px;
 }
